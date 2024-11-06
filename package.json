@@ -1,0 +1,28 @@
+{
+  "name": "re-grass",
+  "version": "0.0.1",
+  "main": "src/Main.ts",
+  "license": "MIT",
+  "scripts": {
+    "main": "npx tsx ./src/Main.ts",
+    "playground": "npx tsx ./src/Test.ts"
+  },
+  "dependencies": {
+    "@types/node": "^22.9.0",
+    "axios": "^1.7.7",
+    "colors": "^1.4.0",
+    "https-proxy-agent": "^7.0.5",
+    "npx": "^10.2.2",
+    "qrcode-terminal": "^0.12.0",
+    "socks-proxy-agent": "^8.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "uuid": "^11.0.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/colors": "^1.2.4",
+    "@types/ws": "^8.5.13",
+    "tsx": "^4.19.2"
+  }
+}
